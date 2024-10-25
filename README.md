@@ -31,7 +31,7 @@
 # Installation
 ───────────────────────────────────────────────────────────────────────
 
-	mkdir -p C:/work/Vagrant
+	mkdir -p C:/work/Vagrant/vagrant-2.4
 	
 	cd C:/work/Vagrant
 	
@@ -40,6 +40,7 @@
 	wget https://releases.hashicorp.com/vagrant/2.4.1/vagrant_2.4.1_windows_amd64.msi
 
 	msiexec /i "vagrant_2.4.1_windows_amd64.msi" INSTALLDIR="C:\Work\Vagrant\vagrant-2.4" TARGETDIR="C:\Work\Vagrant\vagrant-2.4" /qb
+
 	
 ───────────────────────────────────────────────────────────────────────
 # Configuration
@@ -54,6 +55,10 @@
 
 * Restart the system
 
+	 
+───────────────────────────────────────────────────────────────────────
+# Extension
+───────────────────────────────────────────────────────────────────────
 
 * Install Guest Extension Plugins 
 
@@ -61,6 +66,7 @@
 	
 	vagrant plugin install vagrant-vbguest
 	
+
 * Login 
 
 	vagrant login
